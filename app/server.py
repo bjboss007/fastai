@@ -11,7 +11,7 @@ from starlette.staticfiles import StaticFiles
 
 export_file_url = 'https://drive.google.com/uc?export=download&id=1-CjNIpPZ4kDSz7sJ9fqLr9Gkrza08D5y'
 #https://drive.google.com/uc?export=download&id=1bqHwjrvn5NRsDS3i2hldmMJgaVNerG-X
-export_file_name = 'export.pkl'
+export_file_name = 'model1.pth'
 
 classes = ['Habib', 'Hanifat', 'Mujibat', 'Qudus', 'Sururot']
 path = Path(__file__).parent
